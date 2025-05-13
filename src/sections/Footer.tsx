@@ -22,7 +22,7 @@ const footerLinks = [
 
 export const Footer = () => {
   return (
-    <footer className="relative z-0 overflow-x-clip">
+    <footer className="relative -z-80 overflow-x-clip">
       <div className="rotate-180 absolute inset-0 h-[400px] -mt-28 md:-mt-80 bottom-0 min-w-screen -z-10 opacity-50">
         <Aurora />
       </div>
