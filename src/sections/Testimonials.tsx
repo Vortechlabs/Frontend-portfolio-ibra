@@ -11,15 +11,21 @@ import { Fragment } from "react";
 
 const testimonials = [
   {
-    name: "Alex Turner",
-    position: "Marketing Manager @ TechStartups",
+    name: "Galih Tyas",
+    position: "Head of the RPL Department @ Smega",
+    text: "Alex is a true frontend wizard. He took our complex product and transformed it into an intuitive and engaging user interface. We're already seeing positive feedback from our customers.",
+    avatar: memojiAvatar4,
+  },
+  {
+    name: "Oki Setiawan",
+    position: "Owner @ SrikandiTrans Purwokerto",
     text: "Alex was instrumental in transforming our website into a powerful marketing tool. His attention to detail and ability to understand our brand is exceptional. We're thrilled with the results!",
     avatar: memojiAvatar1,
   },
   {
-    name: "Olivia Green",
-    position: "Head of Design @ GreenLeaf",
-    text: "Working with Alex was a pleasure. His expertise in frontend development brought our designs to life in a way we never imagined. The website has exceeded our expectations.",
+    name: "Uli Milatin Aulia",
+    position: "Head of OSIS 2024-2025",
+    text: "Bekerjasama dengan Zaki menurut saya sangat memuaskan. Kenapa? karena dari Zaki saya belajar bahwa teknologi itu ada aja updateannya, setelah me-review beberapa hasil karya Zaki juga ternyata kemampuan dia sudah jauh di atas rata-rata anak SMK. Jadi pengalaman dan kesukaan akan suatu hal itu ssanagat dibutuhkan dalam sebuah karya.",
     avatar: memojiAvatar2,
   },
   {
@@ -27,12 +33,6 @@ const testimonials = [
     position: "CEO @ InnovateCo",
     text: "Alex's ability to create seamless user experiences is unmatched. Our website has seen a significant increase in conversions since launching the new design. We couldn't be happier.",
     avatar: memojiAvatar3,
-  },
-  {
-    name: "Emily Carter",
-    position: "Product Manager @ GlobalTech",
-    text: "Alex is a true frontend wizard. He took our complex product and transformed it into an intuitive and engaging user interface. We're already seeing positive feedback from our customers.",
-    avatar: memojiAvatar4,
   },
   {
     name: "Michael Brown",

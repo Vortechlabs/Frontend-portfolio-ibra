@@ -8,8 +8,11 @@ import JavascriptIcon from "@/assets/icons/square-js.svg";
 import HTMLIcon from "@/assets/icons/html5.svg";
 import CSSIcon from "@/assets/icons/css3.svg";
 import ReactIcon from "@/assets/icons/react.svg";
+import NextJSIcon from "@/assets/icons/nextjs.svg";
+import LaravelIcon from "@/assets/icons/laravel.svg";
 import ChromeIcon from "@/assets/icons/chrome.svg";
 import GithubIcon from "@/assets/icons/github.svg";
+import FigmaIcon from "@/assets/icons/figma.svg";
 import smileMemoji from "@/assets/images/memoji-smile.png";
 import { CardHeader } from "@/components/CardHeader";
 import { ToolboxItems } from "@/components/ToolboxItems";
@@ -30,8 +33,16 @@ const toolboxItems = [
     iconType: CSSIcon,
   },
   {
-    title: "React",
+    title: "ReactJS",
     iconType: ReactIcon,
+  },
+  {
+    title: "NextJS",
+    iconType: NextJSIcon,
+  },
+  {
+    title: "Laravel",
+    iconType: LaravelIcon,
   },
   {
     title: "Chrome",
@@ -40,6 +51,10 @@ const toolboxItems = [
   {
     title: "Github",
     iconType: GithubIcon,
+  },
+  {
+    title: "Figma",
+    iconType: FigmaIcon,
   },
 ];
 
@@ -92,7 +107,7 @@ export const AboutSection = () => {
   const constraintRef = useRef(null);
 
   return (
-    <div className="py-20 lg:py-28">
+    <div className="py-20 lg:py-28"  id="about">
       <div className="container">
         <SectionHeader
           eyebrow="About Me"

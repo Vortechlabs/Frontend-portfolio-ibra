@@ -9,19 +9,19 @@ export const Header = () => {
           Home
         </a>
         <a 
-          href="#" 
+          href="#project" 
           className="nav-item"
         >
           Projects
         </a>
         <a 
-          href="#" 
+          href="#about" 
           className="nav-item"
         >
           About
         </a>
         <a 
-          href="#" 
+          href="#contact" 
           className="nav-item bg-white text-gray-900 hover:bg-white/70 hover:text-gray-900"
         >
           Contact

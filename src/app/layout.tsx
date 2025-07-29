@@ -11,7 +11,6 @@ export const metadata: Metadata = {
   description: "Created with the help of Frontend Tribe",
 };
 
-
 export default function RootLayout({
   children,
 }: Readonly<{

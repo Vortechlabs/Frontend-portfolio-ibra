@@ -15,7 +15,7 @@ export default function Home() {
       <ProjectsSection />
       <TapeSection />
       <TestimonialsSection />
-      <AboutSection />
+      <AboutSection/>
       <ContactSection />
       <Footer />
     </div>
